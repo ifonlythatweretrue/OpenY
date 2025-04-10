@@ -14,6 +14,7 @@ public class Main {
         Menu menu = new Menu(); // instantiate menu and load menu items via json file into a list
 
         Scanner sc = new Scanner(System.in);
+
         if(login()){//make login function to homepage
             mainMenu();
         }
